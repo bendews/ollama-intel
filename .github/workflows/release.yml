@@ -59,6 +59,5 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64
-          target: runtime-oneapi
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
