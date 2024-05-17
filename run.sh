@@ -1,3 +1,4 @@
+#!/bin/bash
 source ipex-llm-init -g --device $DEVICE
 # init ollama
 mkdir -p /var/ollama
